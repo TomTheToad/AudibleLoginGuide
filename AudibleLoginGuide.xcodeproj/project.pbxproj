@@ -12,6 +12,7 @@
 		C76AD1981EA2D59D009156E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76AD1961EA2D59D009156E7 /* Main.storyboard */; };
 		C76AD19A1EA2D59D009156E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76AD1991EA2D59D009156E7 /* Assets.xcassets */; };
 		C76AD19D1EA2D59D009156E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76AD19B1EA2D59D009156E7 /* LaunchScreen.storyboard */; };
+		C76AD1A51EA2DFD9009156E7 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76AD1A41EA2DFD9009156E7 /* PageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C76AD1991EA2D59D009156E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C76AD19C1EA2D59D009156E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C76AD19E1EA2D59D009156E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76AD1A41EA2DFD9009156E7 /* PageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C76AD1921EA2D59D009156E7 /* AppDelegate.swift */,
 				C76AD1941EA2D59D009156E7 /* ViewController.swift */,
+				C76AD1A41EA2DFD9009156E7 /* PageCell.swift */,
 				C76AD1961EA2D59D009156E7 /* Main.storyboard */,
 				C76AD1991EA2D59D009156E7 /* Assets.xcassets */,
 				C76AD19B1EA2D59D009156E7 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				C76AD1951EA2D59D009156E7 /* ViewController.swift in Sources */,
 				C76AD1931EA2D59D009156E7 /* AppDelegate.swift in Sources */,
+				C76AD1A51EA2DFD9009156E7 /* PageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
