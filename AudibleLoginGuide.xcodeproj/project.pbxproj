@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C76345481EA57A01005A1016 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76345471EA57A01005A1016 /* Page.swift */; };
 		C76AD1931EA2D59D009156E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76AD1921EA2D59D009156E7 /* AppDelegate.swift */; };
 		C76AD1951EA2D59D009156E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76AD1941EA2D59D009156E7 /* ViewController.swift */; };
 		C76AD1981EA2D59D009156E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76AD1961EA2D59D009156E7 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C76345471EA57A01005A1016 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		C76AD18F1EA2D59D009156E7 /* AudibleLoginGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudibleLoginGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C76AD1921EA2D59D009156E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C76AD1941EA2D59D009156E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				C76AD1921EA2D59D009156E7 /* AppDelegate.swift */,
 				C76AD1941EA2D59D009156E7 /* ViewController.swift */,
 				C76AD1A41EA2DFD9009156E7 /* PageCell.swift */,
+				C76345471EA57A01005A1016 /* Page.swift */,
 				C76AD1961EA2D59D009156E7 /* Main.storyboard */,
 				C76AD1991EA2D59D009156E7 /* Assets.xcassets */,
 				C76AD19B1EA2D59D009156E7 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			files = (
 				C76AD1951EA2D59D009156E7 /* ViewController.swift in Sources */,
 				C76AD1931EA2D59D009156E7 /* AppDelegate.swift in Sources */,
+				C76345481EA57A01005A1016 /* Page.swift in Sources */,
 				C76AD1A51EA2DFD9009156E7 /* PageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +310,7 @@
 				C76AD1A31EA2D59D009156E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
